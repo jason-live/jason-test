@@ -1,0 +1,8 @@
+/node_modules
+.vscode
+.idea
+.DS_Store
+.tags
+.tags1
+*.zip
+package-lock.json
