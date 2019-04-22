@@ -27,6 +27,7 @@ const server = http.createServer((request, response) => {
   if (pathname === loginPath) {
     console.log('用户名：', query.username);
     console.log('密码：', query.passport);
+    // 编码
     response.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
     response.write('登陆成功！', 'utf-8');
     response.end();
