@@ -1,0 +1,19 @@
+{
+  "name": "jason-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-live/jason-test.git"
+  },
+  "author": "jasonlive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-live/jason-test/issues"
+  },
+  "homepage": "https://github.com/jason-live/jason-test#readme"
+}
