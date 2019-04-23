@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jason-live/jason-test/issues"
   },
-  "homepage": "https://github.com/jason-live/jason-test#readme"
+  "homepage": "https://github.com/jason-live/jason-test#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
 }

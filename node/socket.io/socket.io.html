@@ -17,7 +17,7 @@
     const socket = io.connect('ws://localhost:8080/')
 
     // 根据事件名，向服务端发送数据，数据数量不限。
-    socket.emit('msg', '客户端向服务端发送数据第一条', '客户端向服务端发送数据第二条')
+    // socket.emit('msg', '客户端向服务端发送数据第一条html', '客户端向服务端发送数据第二条html')
 
     // 根据事件名接收服务端返回的数据
     socket.on('msg', (...msgs) => {

@@ -15,7 +15,7 @@ const ws = io.listen(server)
 // 该事件会返回一个socket对象（https://socket.io/docs/server-api/#Socket），可以利用socket对象进行发送、接收数据操作。
 ws.on('connection', (socket) => {
   // 根据事件名，向客户端发送数据，数据数量不限。
-  socket.emit('msg', '服务端向客户端发送数据第一条', '服务端向客户端发送数据第二条')
+  socket.emit('msg', '服务端向客户端发送数据第一条server', '服务端向客户端发送数据第二条server')
 
   // 根据事件名接收客户端返回的数据
   socket.on('msg', (...msgs) => {
@@ -25,5 +25,5 @@ ws.on('connection', (socket) => {
   // 使用计时器向客户端发送数据
   setInterval(() => {
     socket.emit('timer', new Date().getTime())
-  }, 500);
+  }, 5000);
 })
